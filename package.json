@@ -1,0 +1,14 @@
+{
+  "name": "nxx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+  },
+  "author": "Guo, Xinghua",
+  "license": "MIT",
+  "dependencies": {
+    "rimraf": "^2.6.1"
+  }
+}
