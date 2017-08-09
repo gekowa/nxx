@@ -52,6 +52,8 @@ rl.on('line', function (cmd) {
     const npmInstallSpawn = spawn("npm", ["install"], {
       stdio: "inherit",
       shell: true
+    }).on("close", function () {
+      process.exit();;
     });
   }
 });

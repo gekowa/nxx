@@ -1,7 +1,7 @@
 {
   "name": "nxx",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "A tool that deletes 'node_modules', 'package-lock.json' and run 'npm install' in a series.",
   "main": "index.js",
   "bin": "index.js",
   "scripts": {
